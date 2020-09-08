@@ -371,9 +371,9 @@ definitions:
   - statement_descriptor:
       type: String
       description:
-        en: 'How will look the payment in the card bill (e.g.: MERCADOPAGO).'
-        es: 'Cómo aparecerá el pago en el resumen de tarjeta (ej.: MERCADOPAGO).'
-        pt: 'Como aparecerá o pagamento no extrato do cartão (ex: o MERCADOPAGO).'
+        en: 'How will look the payment in the card bill (e.g.: MYBUSINESS).'
+        es: 'Cómo aparecerá el pago en el resumen de tarjeta (ej.: MINEGOCIO).'
+        pt: 'Como aparecerá o pagamento no extrato do cartão (ex: o MEUNEGOCIO).'
   - id:
       type: String(UUID)
       description:
