@@ -301,20 +301,6 @@ Se quiser ativar o pagamento de uma preferência com uma determinada duração, 
 "expiration_date_to": "2017-02-28T12:00:00.000-04:00"
 ```
 
-### Descrição no resumo do cartão
-
-Pode enviar o nome da sua empresa no atributo _`demonstrativo_descriptor`_ desta forma no resumo do seu cartão de pagador aparece o nome da sua empresa e desta forma o pagador sabe onde efectuou a compra.
-
-```json
-"statement_descriptor": "MEUNEGOCIO"
-```
-
-> NOTE
->
-> Nota
->
-> Se o valor do atributo é mostrado no resumo do cartão do seu pagador dependerá da marca do cartão utilizado.
-
 ### Diversos itens
 
 Se você precisar criar uma preferência para mais de um item, só deverá adicioná-los como uma lista dentro _dos items._
@@ -466,6 +452,20 @@ Para configurá-lo, adicione o item `shipments` com o valor que quiser cobrar no
   }
 }
 ```
+
+### Descrição no resumo do cartão
+
+Pode enviar o nome da sua empresa no atributo _`demonstrativo_descriptor`_ desta forma no resumo do seu cartão de pagador aparece o nome da sua empresa e desta forma o pagador sabe onde efectuou a compra.
+
+```json
+"statement_descriptor": "MEUNEGOCIO"
+```
+
+> NOTE
+>
+> Nota
+>
+> Se o valor do atributo é mostrado no resumo do cartão do seu pagador dependerá da marca do cartão utilizado.
 
 ## Otimize a conversão dos seus anúncios
 
